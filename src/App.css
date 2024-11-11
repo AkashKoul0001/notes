@@ -1,0 +1,29 @@
+/* app.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;        /* Ensure the page takes full height */
+    overflow: hidden;    /* Prevent scrolling */
+  }
+  
+  #root {
+    height: 100%;        /* Ensure root element fills the page */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0; /* Example background */
+  }
+  
+  .content {
+    width: 80%;           /* Adjust this based on the content */
+    height: 80%;          /* Adjust this as well */
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
